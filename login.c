@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "auth.h"
-#include "data.h"
-#include "util.h"
+#include "login.h"
 
 int daftar(void) {
     User baru, u;
