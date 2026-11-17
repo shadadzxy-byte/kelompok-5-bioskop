@@ -1,11 +1,5 @@
 #include <stdio.h>
-#include "data.h"
-#include "util.h"
-#include "auth.h"
-#include "pemesanan.h"
-#include "pembayaran.h"
-#include "konfirmasi.h"
-#include "riwayat.h"
+#include "login.h"
 
 /* Menu setelah login berhasil */
 static void menuUtama(const char *username) {
