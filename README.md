@@ -2,7 +2,7 @@
 
 **NAMA KELOMPOK**
 1. Wanda Desfa Hamidah (26071105052)
-2. Dzafif
+2. Dzafif Al-Ikhsan (26071103579
 3. Shadadz
 4. Askia Yuna Ananda (26071101350)
 
