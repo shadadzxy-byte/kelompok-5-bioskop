@@ -30,22 +30,4 @@ Aplikasi ini dilengkapi dengan 12 fitur utama yang saling terintegrasi:
 4. Checkout & Selesai: Sistem melakukan Perhitungan Harga, pengguna melakukan Pembayaran, dan aplikasi menerbitkan Bukti Pemesanan.
 5. Manajemen Sesi: Pengguna dapat mengecek Riwayat Transaksi
 
-fivemovie/
-│
-├── main.c
-├── login.c
-├── login.h
-├── film.c
-├── film.h
-├── bioskop.c
-├── bioskop.h
-├── kursi.c
-├── kursi.h
-├── camilan.c
-├── camilan.h
-├── pembayaran.c
-├── pembayaran.h
-├── transaksi.c
-├── transaksi.h
-├── data.h
-└── Makefile
+
