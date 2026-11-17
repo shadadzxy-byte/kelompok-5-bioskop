@@ -68,12 +68,12 @@ gcc main.c data.c akun.c pemesanan.c pembayaran.c konfirmasi.c riwayat.c -o main
 
 ## Data Pilihan
 
-| Film | Harga Tiket |
-|---|---|
-| Film 1 | Rp40.000 |
-| Film 2 | Rp45.000 |
-| Film 3 | Rp50.000 |
-| Film 4 | Rp55.000 |
+| Film | Harga Tiket Weekdays | Harga Tiket Weekdend |
+|---|---|---|
+| Film 1 | Rp30.000 | Rp45.000 |
+| Film 2 | Rp35.000 | Rp50.000 |
+| Film 3 | Rp40.000 | Rp55.000 |
+| Film 4 | Rp45.000 | Rp60.000 |
 
 | Camilan | Harga |
 |---|---|
