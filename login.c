@@ -7,9 +7,9 @@ int daftar(void) {
     FILE *fp;
 
     printf("\n--- DAFTAR AKUN ---\n");
-    printf("Username baru : ");
+    printf("Username Baru: ");
     bacaKata(baru.username);
-    printf("Password baru : ");
+    printf("Password Baru: ");
     bacaKata(baru.password);
 
     if (strlen(baru.username) == 0 || strlen(baru.password) == 0) {
