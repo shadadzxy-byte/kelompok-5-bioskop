@@ -79,8 +79,8 @@ gcc main.c data.c akun.c pemesanan.c pembayaran.c konfirmasi.c riwayat.c -o main
 |---|---|
 | Tanpa camilan | Rp0 |
 | Minum | Rp12.000 |
-| Popcorn | Rp20.000 |
-| Popcorn dan Minum | Rp30.000 |
+| Popcorn | Rp25.000 |
+| Popcorn dan Minum | Rp35.000 |
 
 Lokasi bioskop: Cinema Pusat, Cinema Timur, Cinema Barat.
 Jam tayang: 13:00, 16:00, 19:00. Metode bayar: Tunai, Transfer Bank, E-Wallet.
