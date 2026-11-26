@@ -20,18 +20,17 @@ char *namaCamilan[JUMLAH_CAMILAN] = {"Tanpa camilan", "Minum", "Popcorn", "Popco
 char *namaUkuran[JUMLAH_UKURAN] = {"Kecil", "Sedang", "Besar"};
 
 /* hargaPopcorn[rasa][ukuran] */
-char *namaRasa[JUMLAH_RASA] = {"Asin", "Karamel", "Mix"};
+char *namaRasa[JUMLAH_RASA] = {"Asin", "Karamel"};
 int hargaPopcorn[JUMLAH_RASA][JUMLAH_UKURAN] = {
     {25000, 30000, 35000},  /* Asin    */
-    {27000, 33000, 40000},  /* Karamel */
-    {26000, 32000, 38000}   /* Mix     */
+    {27000, 32000, 37000}   /* Karamel */
 };
 
 /* hargaMinuman[jenis][ukuran] */
 char *namaMinuman[JUMLAH_MINUMAN] = {"Teh", "Soda"};
 int hargaMinuman[JUMLAH_MINUMAN][JUMLAH_UKURAN] = {
     {12000, 15000, 20000},   /* Teh  */
-    {15000, 18000, 25000}   /* Soda */
+    {15000, 18000, 23000}   /* Soda */
 };
 
 char *namaMetode[JUMLAH_METODE] = {"Tunai", "Transfer Bank", "E-Wallet"};
