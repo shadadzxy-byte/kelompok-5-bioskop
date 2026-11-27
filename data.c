@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "data.h"
 
-char *namaFilm[JUMLAH_FILM] = {"Film 1", "Film 2", "Film 3", "Film 4"};
+char *namaFilm[JUMLAH_FILM] = {"Agak Laen", "Dune: Part Two", "Exhuma", "Kung Fu Panda 4"};
 int hargaWeekdays[JUMLAH_FILM] = {30000, 35000, 40000, 45000};
 int hargaWeekend[JUMLAH_FILM]  = {45000, 50000, 55000, 60000};
 
@@ -12,7 +12,13 @@ char *namaTanggal[JUMLAH_TANGGAL] = {"Senin", "Selasa", "Rabu", "Kamis",
                                      "Jumat", "Sabtu", "Minggu"};
 int akhirPekan[JUMLAH_TANGGAL] = {0, 0, 0, 0, 0, 1, 1};
 
-char *namaJam[JUMLAH_JAM] = {"13:00", "16:00", "19:00"};
+/* Jam tayang berbeda untuk setiap film */
+char *namaJam[JUMLAH_FILM][JUMLAH_JAM] = {
+    {"12:30", "15:15", "19:00"}, // Agak Laen
+    {"13:00", "16:30", "20:00"}, // Dune: Part Two
+    {"14:00", "17:15", "21:15"}, // Exhuma
+    {"11:30", "14:15", "16:45"}  // Kung Fu Panda 4
+};
 
 char *namaCamilan[JUMLAH_CAMILAN] = {"Tanpa camilan", "Minum", "Popcorn", "Popcorn dan Minum"};
 
