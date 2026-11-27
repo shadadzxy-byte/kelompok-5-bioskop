@@ -4,7 +4,7 @@
 #define FILE_USER    "users.txt"
 #define FILE_RIWAYAT "riwayat.txt"
 
-#define JUMLAH_FILM    4
+#define JUMLAH_FILM    6
 #define JUMLAH_BIOSKOP 3
 #define JUMLAH_TANGGAL 7
 #define JUMLAH_JAM     3
@@ -41,7 +41,7 @@ extern int hargaWeekend[JUMLAH_FILM];
 extern char *namaBioskop[JUMLAH_BIOSKOP];
 extern char *namaTanggal[JUMLAH_TANGGAL];
 extern int akhirPekan[JUMLAH_TANGGAL];
-extern char *namaJam[JUMLAH_JAM];
+extern char *namaJam[JUMLAH_FILM][JUMLAH_JAM];   /* jam tayang tiap film berbeda */
 extern char *namaCamilan[JUMLAH_CAMILAN];
 extern char *namaRasa[JUMLAH_RASA];
 extern char *namaMinuman[JUMLAH_MINUMAN];
