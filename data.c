@@ -2,9 +2,9 @@
 #include "data.h"
 
 char *namaFilm[JUMLAH_FILM] = {
-    "Agak Laen", 
-    "Dune: Part Two", 
-    "Exhuma", 
+    "Agak Laen",
+    "Dune: Part Two",
+    "Exhuma",
     "Kung Fu Panda 4",
     "Inside Out 2",
     "Deadpool & Wolverine"
@@ -12,6 +12,13 @@ char *namaFilm[JUMLAH_FILM] = {
 
 int hargaWeekdays[JUMLAH_FILM] = {30000, 35000, 40000, 45000, 32000, 48000};
 int hargaWeekend[JUMLAH_FILM]  = {45000, 50000, 55000, 60000, 47000, 65000};
+
+char *namaBioskop[JUMLAH_BIOSKOP] = {"Cinema Pusat", "Cinema Timur", "Cinema Barat"};
+
+/* akhirPekan: 0 = weekdays, 1 = weekend (Sabtu dan Minggu) */
+char *namaTanggal[JUMLAH_TANGGAL] = {"Senin", "Selasa", "Rabu", "Kamis",
+                                     "Jumat", "Sabtu", "Minggu"};
+int akhirPekan[JUMLAH_TANGGAL] = {0, 0, 0, 0, 0, 1, 1};
 
 /* Jam tayang unik untuk setiap film (18 jam berbeda, tidak ada yang nabrak) */
 char *namaJam[JUMLAH_FILM][JUMLAH_JAM] = {
