@@ -68,14 +68,14 @@ gcc main.c data.c akun.c pemesanan.c pembayaran.c konfirmasi.c riwayat.c -o main
 
 ## Data Pilihan
 
-## Data Pilihan
-
 | Film | Harga Tiket Weekdays | Harga Tiket Weekend | Jam Tayang |
 | :--- | :--- | :--- | :--- |
 | Agak Laen | Rp30.000 | Rp45.000 | 12:30, 15:15, 19:00 |
 | Dune: Part Two | Rp35.000 | Rp50.000 | 13:00, 16:30, 20:00 |
 | Exhuma | Rp40.000 | Rp55.000 | 14:00, 17:15, 21:15 |
 | Kung Fu Panda 4 | Rp45.000 | Rp60.000 | 11:30, 14:15, 16:45 |
+| Inside Out 2 | Rp32.000 | Rp47.000 | 11:00, 13:45, 18:15 |
+| Deadpool & Wolverine | Rp48.000 | Rp65.000 | 15:45, 19:30, 21:45 |
 
 | Camilan | Harga |
 |---|---|
