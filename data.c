@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include "data.h"
 
-char *namaFilm[JUMLAH_FILM] = {"Agak Laen", "Dune: Part Two", "Exhuma", "Kung Fu Panda 4"};
-int hargaWeekdays[JUMLAH_FILM] = {30000, 35000, 40000, 45000};
-int hargaWeekend[JUMLAH_FILM]  = {45000, 50000, 55000, 60000};
+char *namaFilm[JUMLAH_FILM] = {
+    "Agak Laen", 
+    "Dune: Part Two", 
+    "Exhuma", 
+    "Kung Fu Panda 4",
+    "Inside Out 2",
+    "Deadpool & Wolverine"
+};
 
-char *namaBioskop[JUMLAH_BIOSKOP] = {"Cinema Pusat", "Cinema Timur", "Cinema Barat"};
+int hargaWeekdays[JUMLAH_FILM] = {30000, 35000, 40000, 45000, 32000, 48000};
+int hargaWeekend[JUMLAH_FILM]  = {45000, 50000, 55000, 60000, 47000, 65000};
 
-/* akhirPekan: 0 = weekdays, 1 = weekend (Sabtu dan Minggu) */
-char *namaTanggal[JUMLAH_TANGGAL] = {"Senin", "Selasa", "Rabu", "Kamis",
-                                     "Jumat", "Sabtu", "Minggu"};
-int akhirPekan[JUMLAH_TANGGAL] = {0, 0, 0, 0, 0, 1, 1};
-
-/* Jam tayang berbeda untuk setiap film */
+/* Jam tayang unik untuk setiap film (18 jam berbeda, tidak ada yang nabrak) */
 char *namaJam[JUMLAH_FILM][JUMLAH_JAM] = {
     {"12:30", "15:15", "19:00"}, // Agak Laen
     {"13:00", "16:30", "20:00"}, // Dune: Part Two
     {"14:00", "17:15", "21:15"}, // Exhuma
-    {"11:30", "14:15", "16:45"}  // Kung Fu Panda 4
+    {"11:30", "14:15", "16:45"}, // Kung Fu Panda 4
+    {"11:00", "13:45", "18:15"}, // Inside Out 2
+    {"15:45", "19:30", "21:45"}  // Deadpool & Wolverine
 };
 
 char *namaCamilan[JUMLAH_CAMILAN] = {"Tanpa camilan", "Minum", "Popcorn", "Popcorn dan Minum"};
